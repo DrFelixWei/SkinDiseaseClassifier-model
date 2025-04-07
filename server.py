@@ -5,12 +5,10 @@ import tensorflow as tf
 import numpy as np
 from dotenv import load_dotenv
 
-# Load environment variables from .env file (optional but recommended for local dev)
 load_dotenv()
 
 app = FastAPI()
 
-# Load config from environment
 allowed_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
 api_key_env = os.getenv("API_KEY")
 
@@ -23,18 +21,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load your trained classifier model
 model = tf.keras.models.load_model("model.h5")
-
-# Your class labels
 class_names = ["Acne", "Eczema", "Atopic", "Psoriasis", "Tinea"]
 
 @app.post("/predict")
 async def predict(request: Request):
-    # Check API key
     request_api_key = request.headers.get("x-api-key")
+
     if request_api_key != api_key_env:
-        return {}  # or: raise HTTPException(status_code=403, detail="Forbidden")
+        return {}
 
     # Parse and predict
     data = await request.json()
