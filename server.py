@@ -35,7 +35,7 @@ classifier_model = tf.keras.models.load_model("model.h5")
 vgg_model = VGG19(weights='imagenet', include_top=False, input_shape=(180, 180, 3))
 
 # Target disease classes
-class_names = ["Acne", "Eczema", "Atopic", "Psoriasis", "Tinea"]
+class_names = ["Acne", "Eczema", "Atopic", "Psoriasis", "Tinea", "Normal"]
 
 def preprocess_image(file: UploadFile):
     image = Image.open(io.BytesIO(file.file.read())).convert("RGB")
