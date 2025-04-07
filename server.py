@@ -1,0 +1,48 @@
+import os
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+import tensorflow as tf
+import numpy as np
+from dotenv import load_dotenv
+
+# Load environment variables from .env file (optional but recommended for local dev)
+load_dotenv()
+
+app = FastAPI()
+
+# Load config from environment
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
+api_key_env = os.getenv("API_KEY")
+
+# Enable CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Load your trained classifier model
+model = tf.keras.models.load_model("model.h5")
+
+# Your class labels
+class_names = ["Acne", "Eczema", "Atopic", "Psoriasis", "Tinea"]
+
+@app.post("/predict")
+async def predict(request: Request):
+    # Check API key
+    request_api_key = request.headers.get("x-api-key")
+    if request_api_key != api_key_env:
+        return {}  # or: raise HTTPException(status_code=403, detail="Forbidden")
+
+    # Parse and predict
+    data = await request.json()
+    input_features = np.array(data["data"])
+    pred = model.predict(input_features)[0]
+    class_index = np.argmax(pred)
+    class_name = class_names[class_index]
+    return {
+        "class": class_name,
+        "confidence": float(pred[class_index])
+    }

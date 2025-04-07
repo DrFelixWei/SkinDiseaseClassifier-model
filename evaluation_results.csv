@@ -1,0 +1,251 @@
+image_path,true_label,predicted_label,confidence,correct
+./data/dermnet/test\Acne and Rosacea Photos\07PerioralDermEye.jpg,Acne,Acne,99.89349246025085,True
+./data/dermnet/test\Acne and Rosacea Photos\07Rhinophyma1.jpg,Acne,Acne,94.12853717803955,True
+./data/dermnet/test\Acne and Rosacea Photos\07rhnophymas0321051.jpg,Acne,Acne,99.99967813491821,True
+./data/dermnet/test\Acne and Rosacea Photos\07RosaceaFulFAce.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\07RosaceaMilia0120.jpg,Acne,Acne,99.82520937919617,True
+./data/dermnet/test\Acne and Rosacea Photos\07RosaceaOK0828063.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\07sebDerem1101051.jpg,Acne,Acne,99.99791383743286,True
+./data/dermnet/test\Acne and Rosacea Photos\07SteroidPerioral.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\07SteroidPerioral1.jpg,Acne,Acne,99.99998807907104,True
+./data/dermnet/test\Acne and Rosacea Photos\07VascularFace0120.jpg,Acne,Acne,99.98505115509033,True
+./data/dermnet/test\Acne and Rosacea Photos\08PerioralDerm1.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-003.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-1.jpg,Acne,Acne,99.99880790710449,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-13.jpg,Acne,Acne,99.95686411857605,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-15.jpg,Acne,Acne,99.99483823776245,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-16.jpg,Acne,Acne,99.9998688697815,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-2.jpg,Acne,Acne,99.9995470046997,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-21.jpg,Acne,Acne,99.54362511634827,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-22.jpg,Acne,Acne,99.9991774559021,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-24.jpg,Acne,Acne,99.99608993530273,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-25.jpg,Acne,Acne,99.99935626983643,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-26.jpg,Acne,Acne,90.71402549743652,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-28.jpg,Acne,Acne,99.99998807907104,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-29.jpg,Acne,Acne,99.99998807907104,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-3.jpg,Acne,Acne,61.36929988861084,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-31.jpg,Acne,Acne,99.91003274917603,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-36.jpg,Acne,Acne,99.98514652252197,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-closed-comedo-4.jpg,Acne,Acne,99.91642236709595,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-101.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-103.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-104.jpg,Acne,Acne,99.80000853538513,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-112.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-114.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-120.jpg,Acne,Acne,99.99903440475464,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-122.jpg,Acne,Acne,99.99898672103882,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-126.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-128.jpg,Acne,Acne,99.97439980506897,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-131.jpg,Acne,Acne,99.89891648292542,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-133.jpg,Acne,Acne,50.921785831451416,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-135.jpg,Acne,Acne,99.79010820388794,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-137.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-141.jpg,Acne,Acne,99.99809265136719,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-148.jpg,Acne,Acne,99.9998688697815,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-149.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-18.jpg,Acne,Acne,99.9923825263977,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-19.jpg,Acne,Acne,100.0,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-3.jpg,Acne,Acne,99.99659061431885,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-30.jpg,Acne,Acne,99.99891519546509,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-33.jpg,Acne,Acne,99.99995231628418,True
+./data/dermnet/test\Acne and Rosacea Photos\acne-cystic-40.jpg,Acne,Acne,99.99991655349731,True
+./data/dermnet/test\Normal\normal_0005dc5d1e4f6d3d56e7_jpg.rf.ff8e6e61a5b97e8377c08326ecfa3f32.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_017e7a5216e6dff6cdd4_jpg.rf.00de0a968c3d20e84f21afb3455bc79f.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_059b3e437854f2087e1c_jpg.rf.c222b7de169d732b9f68b9e0cc464308.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_0e19f8a9b2f135ed3acb_jpg.rf.7b0729f4b66cb9504413e06459509e7f.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_13b6a628a6c75816b6e8_jpg.rf.ab95b1a08a93086683cf68df5992f295.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_23237bcf7c12d6380131_jpg.rf.1499906a5cc05784d64b06673ea4ca84.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_247fd7f1c6dafc8f621a_jpg.rf.3c8afb82ebbfad308bdd2523eb63f4b1.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_26c545215e4cd92863ae_jpg.rf.58c94f409e89c1c611a960ca51eed128.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_279a22f5405c0c49cef1_jpg.rf.336992d84bbdb67725a7864a5fbe57ea.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_2b8c3708237d9a42f1c6_jpg.rf.4ce79a7a80c2cb7b5879c46ab213de3f.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_2d80ca42638dddb59de3_jpg.rf.833212d09142458e458a87df3824c8f3.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_2d80ca42638dddb59de3_jpg.rf.ecb2d812ebcbd9b34e69e47cffc65a71.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_385fa27e0c389c2a6ceb_jpg.rf.ae9196bf9990df4c2438b269839c70fc.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_39a5a0a01f958ee678f7_jpg.rf.4c312ae8b53bdeb47205fbcb561199c0.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_3a9aef121f54bea1361b_jpg.rf.d94e39deeb4b4173397fbd172bee1f3c.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_3c2a7cfb871d34c09d0b_jpg.rf.21c21b918715d95d3d3625b790063764.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_4359caf0fce679e83c27_jpg.rf.eb7c38b04eab7ee53df5a0a8f2b3265a.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_456debdcb3d42807b707_jpg.rf.19eea78960e59eb09c9691e1f23cc8d1.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_4c0cbc2b331642ca245e_jpg.rf.cf298f416fabd162e248fb9cde3776bc.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_4f0835c6ea093e8b0405_jpg.rf.4847266c552187ce43852c8c3e62a9cc.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_58ee173da92de41b3a56_jpg.rf.4f3a99d919b9f86a3fc9882033b3a5c9.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_60b2d2a498b61adb9d6f_jpg.rf.2cafbf04a008f8586c6743aa43fa99ba.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_6381756120b30f812d7a_jpg.rf.31bd185fbbe260a0851f499d3e162f60.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_6b356a0239dd90157c90_jpg.rf.f1fb8b477ff74883cbb4b4e655631915.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_6e60a7348cf329355423_jpg.rf.598e323a296467ae3f5f570c5c35cbcc.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_732ce4b4e1aa283b8fe1_jpg.rf.d5c80f2116fb98dc07594b832132b0e1.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_799f3254b84e7558e86c_jpg.rf.a4e3d796a0f34e59e2811b3f4801c385.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_7d00a675b9fabb9780d8_jpg.rf.3ba7f8e5db8941144c0690dc2ce4b1e5.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_7daecf3670aa597ee376_jpg.rf.f13b2788fc314d9ba271ba5855b5a284.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_7fbf491591da7b6a1972_jpg.rf.2020fe9c0016df77a8961a02f90c3e9f.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_7ff77312accb697b01a0_jpg.rf.52d5c08ab6c467088f2a3d70dd7b7dda.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_800b1d9bedd36765807a_jpg.rf.9b5468927dbd3f46d17b8e2383d3c600.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_8540cc64d235c2321793_jpg.rf.94371b879ae9a7d9091cdc74731323b7.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_8b110dc8acb6cf00d6d6_jpg.rf.4555b378fe712df3cdbe635f283f85b7.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_8d21ff6154d429ef506d_jpg.rf.55dcc73a53cb3cda43524667e492fd96.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_8d9e660d1006814cb698_jpg.rf.8e690613ca2739a8a60590c356da32af.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_91be42dcbb12320ffc71_jpg.rf.82a6e9094611fd9d8933e557a7a885b3.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_a14cbc3fe88c559bd982_jpg.rf.5f4b1777e2d8ade390df759fd10ead00.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_a79f106b56c8874d37da_jpg.rf.56fe58ec5ac836386d1472f84ccc967b.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_a91ae7499b4aad0fd803_jpg.rf.4973ff5e9fca97488953c96cce838ce5.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_ac223b0aac8319751061_jpg.rf.46ffc21b6bee315748ce626b47cbb1d0.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_accc5a9e58218834f463_jpg.rf.1961cbaec91475ecacc7b1b2331775a6.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_b2602c138a83de4e10b2_jpg.rf.81cc64dbb820a6c1e2b7beef20072baa.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_c1522c462c10fab6dfa6_jpg.rf.e17349e24b84049c15604e082f789589.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_c63eeaf528afd808aeee_jpg.rf.2d8f6b39670ea00d46a109f82de164b4.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_c901ad2a48a155d3817f_jpg.rf.cf3d2a4ef01154ddd79299d8beef4aa1.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_d0fe897cc206ed696f0b_jpg.rf.73f4d4679944de3ed3ab14dd64967753.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_d2631b1299b12bd444b8_jpg.rf.ce450fa706ff684ce913ed537d914807.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_d3a269d65680b84bab29_jpg.rf.55e66d5428aa9b509e56fc791b10cf2b.jpg,Normal,Normal,100.0,True
+./data/dermnet/test\Normal\normal_d52e2a918a52dfae1fd1_jpg.rf.f579a5c64e7f5d39038df221b4d15384.jpg,Normal,Normal,99.94962215423584,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\03cheilitis05010422.jpg,Tinea,Tinea,57.643479108810425,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\13Candida040702.jpg,Tinea,Eczema,98.9829957485199,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\13Candida040704.jpg,Tinea,Tinea,99.9957799911499,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\13CandidaAxillae0712041.jpg,Tinea,Eczema,97.72812724113464,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\13candidaIntertrigo0220061.jpg,Tinea,Tinea,46.55357599258423,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\13candidaTongue082205.jpg,Tinea,Tinea,99.99977350234985,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\13intertrigo1219051.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\13TineaIncognito2.jpg,Tinea,Eczema,89.7181749343872,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\actinomycosis-1.jpg,Tinea,Melanoma,99.99998807907104,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\actinomycosis-3.jpg,Tinea,Acne,96.11972570419312,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-groin-1.jpg,Tinea,Eczema,59.30708646774292,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-groin-2.jpg,Tinea,Tinea,99.99222755432129,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-groin-4.jpg,Tinea,Tinea,99.99998807907104,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-penis-1.jpg,Tinea,Tinea,62.15486526489258,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-penis-16.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-penis-20.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-penis-27.jpg,Tinea,Tinea,59.235334396362305,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-penis-33.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-penis-52.jpg,Tinea,Eczema,88.08242082595825,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-penis-53.jpg,Tinea,Eczema,92.21341013908386,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candida-penis-8.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-diaper-10.jpg,Tinea,Eczema,99.99998807907104,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-diaper-11.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-diaper-15.jpg,Tinea,Eczema,97.63620495796204,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-diaper-22.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-diaper-24.jpg,Tinea,Tinea,99.99595880508423,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-diaper-7.jpg,Tinea,Acne,94.05884742736816,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-100.jpg,Tinea,Tinea,99.90812540054321,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-101.jpg,Tinea,Tinea,99.97952580451965,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-102.jpg,Tinea,Tinea,99.99973773956299,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-106.jpg,Tinea,Tinea,99.97691512107849,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-107.jpg,Tinea,Melanoma,99.99885559082031,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-110.jpg,Tinea,Melanoma,48.809945583343506,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-115.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-121.jpg,Tinea,Tinea,97.91239500045776,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-123.jpg,Tinea,Tinea,99.46686625480652,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-126.jpg,Tinea,Tinea,99.82183575630188,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-133.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-147.jpg,Tinea,Tinea,99.99997615814209,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-152.jpg,Tinea,Tinea,99.88901019096375,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-16.jpg,Tinea,Melanoma,99.99983310699463,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-160.jpg,Tinea,Acne,81.96811079978943,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-172.jpg,Tinea,Tinea,99.99997615814209,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-large-skin-folds-96.jpg,Tinea,Tinea,95.89550495147705,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-mouth-11.jpg,Tinea,Tinea,99.94373917579651,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-mouth-5.jpg,Tinea,Tinea,99.9354898929596,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-Penis-78.jpg,Tinea,Tinea,100.0,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-vaginal-2.jpg,Tinea,Acne,83.33207368850708,False
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\candidiasis-vaginal-7.jpg,Tinea,Tinea,99.99995231628418,True
+./data/dermnet/test\Tinea Ringworm Candidiasis and other Fungal Infections\coccidiomycosis-4.jpg,Tinea,Eczema,51.40025615692139,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-10.jpg,Melanoma,Tinea,99.09564852714539,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-12.jpg,Melanoma,Melanoma,99.57677125930786,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-18.jpg,Melanoma,Tinea,99.97653365135193,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-19.jpg,Melanoma,Melanoma,99.99997615814209,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-23.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-25.jpg,Melanoma,Melanoma,99.99998807907104,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-33.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-35.jpg,Melanoma,Acne,99.98886585235596,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-36.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-48.jpg,Melanoma,Melanoma,99.9979019165039,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-49.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-52.jpg,Melanoma,Melanoma,99.922776222229,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-101.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-103.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-106.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-108.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-109.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-117.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-60.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-68.jpg,Melanoma,Melanoma,99.0958571434021,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-77.jpg,Melanoma,Melanoma,99.98902082443237,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-78.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-81.jpg,Melanoma,Melanoma,99.75144863128662,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-82.jpg,Melanoma,Melanoma,99.9982476234436,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-95.jpg,Melanoma,Melanoma,99.99785423278809,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-dermoscopy-97.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-trunk-17.jpg,Melanoma,Melanoma,99.69497323036194,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-trunk-18.jpg,Melanoma,Melanoma,98.65530133247375,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-trunk-2.jpg,Melanoma,Acne,86.57084703445435,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\atypical-nevi-trunk-9.jpg,Melanoma,Melanoma,99.99798536300659,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\becker-nevus-12.jpg,Melanoma,Eczema,99.72856044769287,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\becker-nevus-14.jpg,Melanoma,Melanoma,99.46408271789551,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\becker-nevus-21.jpg,Melanoma,Tinea,99.2605209350586,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\becker-nevus-32.jpg,Melanoma,Tinea,95.70074081420898,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\becker-nevus-36.jpg,Melanoma,Eczema,73.00301790237427,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\becker-nevus-4.jpg,Melanoma,Melanoma,99.8484194278717,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\becker-nevus-9.jpg,Melanoma,Tinea,99.97486472129822,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\blue-nevus-7.jpg,Melanoma,Tinea,66.14826321601868,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\blue-nevus-ota-1.jpg,Melanoma,Eczema,88.52854371070862,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\blue-nevus-ota-4.jpg,Melanoma,Eczema,98.13238978385925,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-11.jpg,Melanoma,Tinea,90.93554019927979,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-19.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-21.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-23.jpg,Melanoma,Tinea,90.18893241882324,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-24.jpg,Melanoma,Melanoma,100.0,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-30.jpg,Melanoma,Acne,99.99988079071045,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-31.jpg,Melanoma,Acne,99.99387264251709,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-35.jpg,Melanoma,Eczema,99.88276362419128,False
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-57.jpg,Melanoma,Melanoma,99.99552965164185,True
+./data/dermnet/test\Melanoma Skin Cancer Nevi and Moles\congenital-nevus-58.jpg,Melanoma,Acne,99.75253939628601,False
+./data/dermnet/test\Eczema Photos\03DermatitisArm1.jpg,Eczema,Eczema,99.97370839118958,True
+./data/dermnet/test\Eczema Photos\03dermatitisDrug112205.jpg,Eczema,Eczema,99.95111227035522,True
+./data/dermnet/test\Eczema Photos\03dermatitisDrug1122051.jpg,Eczema,Tinea,95.32010555267334,False
+./data/dermnet/test\Eczema Photos\03DermatitisLeg.jpg,Eczema,Eczema,99.99966621398926,True
+./data/dermnet/test\Eczema Photos\03DermatitisLids1.jpg,Eczema,Eczema,99.70682263374329,True
+./data/dermnet/test\Eczema Photos\05hyperkeratosis01010.jpg,Eczema,Eczema,99.6016800403595,True
+./data/dermnet/test\Eczema Photos\chapped-fissured-feet-13.jpg,Eczema,Eczema,99.96139407157898,True
+./data/dermnet/test\Eczema Photos\chapped-fissured-feet-16.jpg,Eczema,Eczema,99.6800422668457,True
+./data/dermnet/test\Eczema Photos\chapped-fissured-feet-2.jpg,Eczema,Eczema,98.4728991985321,True
+./data/dermnet/test\Eczema Photos\chapped-fissured-feet-27.jpg,Eczema,Eczema,99.9994158744812,True
+./data/dermnet/test\Eczema Photos\chapped-fissured-feet-33.jpg,Eczema,Tinea,99.98663663864136,False
+./data/dermnet/test\Eczema Photos\desquamation-4.jpg,Eczema,Eczema,99.99966621398926,True
+./data/dermnet/test\Eczema Photos\Dyshidrosis-13.jpg,Eczema,Eczema,99.73646998405457,True
+./data/dermnet/test\Eczema Photos\Dyshidrosis-14.jpg,Eczema,Tinea,71.83579206466675,False
+./data/dermnet/test\Eczema Photos\Dyshidrosis-2.jpg,Eczema,Eczema,99.5238184928894,True
+./data/dermnet/test\Eczema Photos\Dyshidrosis-3.jpg,Eczema,Eczema,99.99700784683228,True
+./data/dermnet/test\Eczema Photos\Dyshidrosis-31.jpg,Eczema,Eczema,99.99974966049194,True
+./data/dermnet/test\Eczema Photos\Dyshidrosis-35.jpg,Eczema,Tinea,99.99995231628418,False
+./data/dermnet/test\Eczema Photos\Dyshidrosis-47.jpg,Eczema,Eczema,60.99131107330322,True
+./data/dermnet/test\Eczema Photos\Dyshidrosis-5.jpg,Eczema,Eczema,99.73037242889404,True
+./data/dermnet/test\Eczema Photos\Dyshidrosis-54.jpg,Eczema,Tinea,99.85622763633728,False
+./data/dermnet/test\Eczema Photos\Dyshidrosis-8.jpg,Eczema,Eczema,99.9421238899231,True
+./data/dermnet/test\Eczema Photos\eczema-acute-4.jpg,Eczema,Tinea,90.76845049858093,False
+./data/dermnet/test\Eczema Photos\eczema-acute-5.jpg,Eczema,Eczema,96.93899154663086,True
+./data/dermnet/test\Eczema Photos\eczema-areola-13.jpg,Eczema,Eczema,99.99983310699463,True
+./data/dermnet/test\Eczema Photos\eczema-areola-18.jpg,Eczema,Acne,99.99614953994751,False
+./data/dermnet/test\Eczema Photos\eczema-areola-21.jpg,Eczema,Eczema,99.97562766075134,True
+./data/dermnet/test\Eczema Photos\eczema-areola-5.jpg,Eczema,Tinea,99.34699535369873,False
+./data/dermnet/test\Eczema Photos\eczema-arms-10.jpg,Eczema,Eczema,99.99289512634277,True
+./data/dermnet/test\Eczema Photos\eczema-arms-4.jpg,Eczema,Eczema,100.0,True
+./data/dermnet/test\Eczema Photos\eczema-arms-5.jpg,Eczema,Eczema,99.99866485595703,True
+./data/dermnet/test\Eczema Photos\eczema-arms-6.jpg,Eczema,Eczema,99.99966621398926,True
+./data/dermnet/test\Eczema Photos\eczema-arms-8.jpg,Eczema,Eczema,99.96761083602905,True
+./data/dermnet/test\Eczema Photos\eczema-arms-9.jpg,Eczema,Eczema,99.9997615814209,True
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-10.jpg,Eczema,Eczema,96.86819911003113,True
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-22.jpg,Eczema,Tinea,99.89708662033081,False
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-24.jpg,Eczema,Tinea,99.9324083328247,False
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-32.jpg,Eczema,Eczema,99.75689053535461,True
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-34.jpg,Eczema,Eczema,99.98866319656372,True
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-35.jpg,Eczema,Tinea,99.79084730148315,False
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-37.jpg,Eczema,Eczema,99.98072981834412,True
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-38.jpg,Eczema,Eczema,99.26112294197083,True
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-53.jpg,Eczema,Tinea,99.61141347885132,False
+./data/dermnet/test\Eczema Photos\eczema-asteatotic-54.jpg,Eczema,Eczema,99.99679327011108,True
+./data/dermnet/test\Eczema Photos\eczema-axillae-1.jpg,Eczema,Tinea,77.46682167053223,False
+./data/dermnet/test\Eczema Photos\eczema-chronic-1.jpg,Eczema,Eczema,99.96705055236816,True
+./data/dermnet/test\Eczema Photos\eczema-chronic-15.jpg,Eczema,Eczema,61.03087067604065,True
+./data/dermnet/test\Eczema Photos\eczema-chronic-2.jpg,Eczema,Eczema,99.9196708202362,True
+./data/dermnet/test\Eczema Photos\eczema-chronic-20.jpg,Eczema,Eczema,99.82727766036987,True
+./data/dermnet/test\Eczema Photos\eczema-chronic-25.jpg,Eczema,Tinea,74.54057931900024,False
