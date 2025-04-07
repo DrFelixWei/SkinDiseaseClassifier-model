@@ -34,7 +34,7 @@ classifier_model = tf.keras.models.load_model("model.h5")
 # VGG19 for feature extraction
 vgg_model = VGG19(weights='imagenet', include_top=False, input_shape=(180, 180, 3))
 
-# Your class labels
+# Target disease classes
 class_names = ["Acne", "Eczema", "Atopic", "Psoriasis", "Tinea"]
 
 def preprocess_image(file: UploadFile):
