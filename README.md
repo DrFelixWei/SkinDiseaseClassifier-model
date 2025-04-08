@@ -6,7 +6,8 @@ The model classifies skin images into five categories based on data from the Der
 - Felix Wei
 
 ## Hosting
-
+1. https://skindiseaseclassifier-model.onrender.com
+2. https://myskinhealth-ml-wtbt8.ondigitalocean.app
 
 ## Local Testing
 1. python -m venv venv

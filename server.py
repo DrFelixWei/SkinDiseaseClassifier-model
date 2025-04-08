@@ -59,6 +59,8 @@ async def predict(request: Request, file: UploadFile = File(...)):
     class_index = np.argmax(pred)
     class_name = class_names[class_index]
 
+    print(f"Predicted class: {class_name}, Confidence: {pred[class_index]}")
+
     return {
         "class": class_name,
         "confidence": float(pred[class_index])
