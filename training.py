@@ -16,7 +16,7 @@ categories = [
     'Normal',
     'Acne and Rosacea Photos',
     'Eczema Photos',
-    'Atopic Dermatitis',
+    'Atopic Dermatitis Photos',
     'Psoriasis pictures Lichen Planus and related diseases',
     'Tinea Ringworm Candidiasis and other Fungal Infections',
     'Melanoma Skin Cancer Nevi and Moles',
