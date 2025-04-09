@@ -1,6 +1,16 @@
 ## Project Description
 This project focuses on training and evaluating a skin disease classification model using a transfer learning approach with the VGG19 architecture. 
-The model classifies skin images into five categories based on data from the DermNet dataset.
+The model was trained using images from the Dermnet Dataset and the Oily, Dry and Normal Skin Types Dataset from Kaggle.
+
+The model classifies skin images into six possible classes: 
+1. Normal* 
+2. Acne/Rosacea
+3. Eczema
+4. Atopic Dermatitis
+5. Psoriasis
+6. Tinea
+7. Melanoma
+* The current model is fairly weak at classifying normal skin due to a less robust dataset of images.
 
 ## Contributors
 - Felix Wei
@@ -47,7 +57,7 @@ The model classifies skin images into five categories based on data from the Der
    - Features are flattened before being passed to the classifier.
 
 4. **Model Training**:
-   - 3 iterations of random `train_test_split` to simulate cross-validation.
+   - 3 k-folds (iterations) of random `train_test_split` to simulate cross-validation.
    - Each iteration:
      - Trains the model using extracted features.
      - Saves the best model based on validation accuracy (`model_fold_{n}.h5`).
@@ -67,10 +77,8 @@ The model classifies skin images into five categories based on data from the Der
 
 ## 📊 Evaluation Process (`evaluation.py`)
 
-This script duplicates the logic of `training.py`. You can use it independently to:
 
-- Validate data loading and preprocessing.
-- Retrain the model for additional verification or testing.
-- Reproduce the results using the same methodology.
+## API Service
+The api service is hosted by running server.py
 
 ---

@@ -13,11 +13,13 @@ from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
 
 # Define disease categories
 categories = [
-    'Acne and Rosacea Photos',
     'Normal',
+    'Acne and Rosacea Photos',
+    'Eczema Photos',
+    'Atopic Dermatitis',
+    'Psoriasis pictures Lichen Planus and related diseases',
     'Tinea Ringworm Candidiasis and other Fungal Infections',
     'Melanoma Skin Cancer Nevi and Moles',
-    'Eczema Photos'
 ]
 
 
@@ -35,15 +37,6 @@ def data_dictionary():
                 img_path_train = path_disease_train + "/" + image
                 train_dictionary["image_path"].append(img_path_train)
                 train_dictionary['target'].append(k)
-
-    # Special handling for Melanoma category - ensuring it has enough samples
-    melanoma_path = path_train + "Melanoma Skin Cancer Nevi and Moles"
-    if os.path.exists(melanoma_path):
-        melanoma_images = os.listdir(melanoma_path)
-        for image in melanoma_images:
-            img_path = melanoma_path + "/" + image
-            train_dictionary["image_path"].append(img_path)
-            train_dictionary['target'].append(3)  # Index of Melanoma in categories
 
     train_df = pd.DataFrame(train_dictionary)
     return train_df
@@ -94,7 +87,7 @@ def display_samples(images_list, n_samples=6):
 display_samples(images)
 
 # Convert labels to categorical
-num_classes = 5  # 5 classes after removing vitiligo
+num_classes = len(categories)
 labels_categorical = to_categorical(labels, num_classes)
 
 # Load pre-trained VGG19 model for feature extraction
@@ -104,11 +97,26 @@ vgg_model = VGG19(weights='imagenet', include_top=False, input_shape=(180, 180, 
 for layer in vgg_model.layers:
     layer.trainable = False
 
+# features = vgg_model.predict(data, batch_size=32, verbose=1)
+# np.save("vgg19_features.npy", features)
+# np.save("vgg19_labels.npy", labels_categorical)
+# features = np.load("vgg19_features.npy")
+# labels_categorical = np.load("vgg19_labels.npy")
+# features = features.reshape(features.shape[0], -1)
+
 # Setup K-fold cross validation
 kf = KFold(n_splits=3)
 fold_no = 1
 acc_per_fold = []
 
+
+# Enable early stopping
+from keras.callbacks import EarlyStopping
+early_stop = EarlyStopping(
+    monitor='val_accuracy',
+    patience=4,            # stop if no improvement after 4 epochs
+    restore_best_weights=True  # load best weights at the end
+)
 
 # Initialize the model
 def create_model():
@@ -158,7 +166,7 @@ for i in range(3):  # Run 3 times with different random splits (mirroring origin
         epochs=25,
         batch_size=32,
         validation_data=(x_test_features, y_test),
-        callbacks=[checkpoint, reduce_lr],
+        callbacks=[checkpoint, reduce_lr, early_stop],
         verbose=1
     )
 

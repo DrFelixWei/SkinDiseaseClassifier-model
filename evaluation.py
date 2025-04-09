@@ -10,20 +10,23 @@ import pandas as pd
 
 # Define disease categories - same as in training.py
 categories = [
-    'Acne and Rosacea Photos',
     'Normal',
+    'Acne and Rosacea Photos',
+    'Eczema Photos',
+    'Atopic Dermatitis',
+    'Psoriasis pictures Lichen Planus and related diseases',
     'Tinea Ringworm Candidiasis and other Fungal Infections',
     'Melanoma Skin Cancer Nevi and Moles',
-    'Eczema Photos'
 ]
 
 # Simplified class names for display
 class_names = [
-    "Acne",
     "Normal",
+    "Acne",
+    "Eczema",
+    "Atopic Dermatitis",
     "Tinea",
     "Melanoma",
-    "Eczema"
 ]
 
 # Load the VGG19 model for feature extraction
