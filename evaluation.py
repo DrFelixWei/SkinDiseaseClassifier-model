@@ -25,6 +25,7 @@ class_names = [
     "Acne",
     "Eczema",
     "Atopic Dermatitis",
+    'Psoriasis',
     "Tinea",
     "Melanoma",
 ]
